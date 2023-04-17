@@ -5,7 +5,10 @@
 ## Getting Started
 
 * [Page 6](getting-started/page-6.md)
-* [Page 5](getting-started/page-5.md)
+
+## Introduction
+
+* [Bits and Qubits](introduction/bits-and-qubits.md)
 
 ## Single Qubit Gates
 
