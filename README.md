@@ -31,5 +31,5 @@ Regardless of your background, you are welcome to tackle this course as it is de
 This content is created by [IQ-PARC](https://www.iqparc.com/) and members of the Quantum Game Club at Purdue University. If you would like to contact us you can either find the info on the [IQ-PARC ](https://www.iqparc.com/)website or via the [QGC Discord Serve](https://discord.gg/WsyEjxHz5s)
 
 {% hint style="info" %}
-Our Sponsors Funding The primary support provided by the National Defense Education Program (NDEP) for Science, Technology, Engineering, and Mathematics (STEM) Education, Outreach, and Workforce Initiative Programs under Grant No. HQ0034-21-1-0014. The views expressed here do not necessarily reflect the official policies of the Department of Defense nor does mention of trade names, commercial practices, or organizations imply endorsement by the U.S. Government.
+The primary support provided by the National Defense Education Program (NDEP) for Science, Technology, Engineering, and Mathematics (STEM) Education, Outreach, and Workforce Initiative Programs under Grant No. HQ0034-21-1-0014. The views expressed here do not necessarily reflect the official policies of the Department of Defense nor does mention of trade names, commercial practices, or organizations imply endorsement by the U.S. Government.
 {% endhint %}
