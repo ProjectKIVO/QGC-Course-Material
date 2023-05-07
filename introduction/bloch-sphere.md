@@ -31,7 +31,7 @@ Images generated with qiskit.
 
 </div>
 
-### Sample Code
+### Example Code
 
 {% tabs %}
 {% tab title="Qiskit" %}
