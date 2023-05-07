@@ -31,6 +31,10 @@ This vector space can be denoted as $$\left(\mathbb{C}^2\right)^{\otimes 4}$$ wh
 
 $$\begin{bmatrix} 0 \\ 0 \\ 0 \\ 0 \\ 0 \\ 1 \\ 0 \\ 0 \\ 0 \\ 0 \\ 0 \\ 0 \\ 0 \\ 0 \\ 0 \\ 0 \end{bmatrix} =$$ $$\begin{array}{c|c}   \textrm{Bit Sequence} & \textrm{Amplitude} \\ \hline   0000 & 0 \\ \hline   0001 & 0 \\ \hline   0010 & 0 \\ \hline   0011 & 0 \\ \hline   0100 & 0 \\ \hline   0101 & 1 \\ \hline   0110 & 0 \\ \hline   0111 & 0 \\ \hline   1000 & 0 \\ \hline   1001 & 0 \\ \hline   1010 & 0 \\ \hline   1011 & 0 \\ \hline   1100 & 0 \\ \hline   1101 & 0 \\ \hline   1110 & 0 \\ \hline   1111 & 0 \end{array}$$
 
+### Additional Representation
+
+You can find other qubit repersentations at [qubit-states.md](qubit-states.md "mention")and [bloch-sphere.md](bloch-sphere.md "mention")
+
 ### Example Code
 
 {% tabs %}

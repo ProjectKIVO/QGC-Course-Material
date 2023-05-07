@@ -20,3 +20,46 @@ The two circular states can be referred to as  "right-circular" and "left-circul
 * |i+⟩: Right-circular or clockwise-circular state, also written as |R⟩ or |C⟩.
 * |i-⟩: Left-circular or counter-clockwise circular state, also written as |L⟩ or |CC⟩.
 {% endhint %}
+
+### Matrix Repersentation
+
+#### Basis States:
+
+$$
+|0\rangle = \begin{bmatrix}
+1 \\
+0
+\end{bmatrix}\;\;\;\;\; |1\rangle = \begin{bmatrix}
+0 \\
+1
+\end{bmatrix}
+$$
+
+#### Superposition States:
+
+$$
+|+\rangle = \begin{bmatrix}
+\frac{1}{\sqrt{2}} \\
+\frac{1}{\sqrt{2}}
+\end{bmatrix}
+\;\;\;\;\; 
+|-\rangle = \begin{bmatrix}
+\frac{1}{\sqrt{2}} \\
+-\frac{1}{\sqrt{2}}
+\end{bmatrix}
+$$
+
+#### Circular States:
+
+$$
+|i+\rangle = \begin{bmatrix}
+\frac{1}{\sqrt{2}} \\
+\frac{i}{\sqrt{2}}
+\end{bmatrix}
+
+\;\;\;\;\; 
+|i-\rangle = \begin{bmatrix}
+\frac{1}{\sqrt{2}} \\
+-\frac{i}{\sqrt{2}}
+\end{bmatrix}
+$$
