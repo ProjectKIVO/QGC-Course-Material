@@ -9,6 +9,7 @@
 ## Introduction
 
 * [Bits and Qubits](introduction/bits-and-qubits.md)
+* [Qubit Representation](introduction/qubit-representation.md)
 
 ## Single Qubit Gates
 
@@ -21,6 +22,10 @@
 ## Quantum Algorithms
 
 * [Page 3](quantum-algorithms/page-3.md)
+
+## Hardware
+
+* [Page 5](hardware/page-5.md)
 
 ## Assignments
 

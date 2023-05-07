@@ -38,4 +38,4 @@ $$
 |\alpha|^2 + |\beta|^2 = 1
 $$
 
-The ability of qubits to exist in superpositions allows quantum computers to perform certain calculations and simulations much more efficiently than classical computers. Additionally, quantum entanglement between qubits enables powerful quantum algorithms and protocols, such as quantum teleportation and quantum key distribution.&#x20;
+The ability of qubits to exist in superpositions allows quantum computers to perform certain calculations and simulations much more efficiently than classical computers. Additionally, quantum entanglement between qubits enables powerful quantum algorithms and protocols, such as quantum teleportation and quantum key distribution. You can find more information on how a qubit is implemented in the [Broken link](broken-reference "mention") section.
