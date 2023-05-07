@@ -63,3 +63,81 @@ $$
 -\frac{i}{\sqrt{2}}
 \end{bmatrix}
 $$
+
+### Example Code
+
+{% tabs %}
+{% tab title="Qiskit" %}
+```python
+# Import dependency
+from qiskit import QuantumRegister
+from qiskit import QuantumCircuit
+
+# Initialize 6 qubits
+qubits = QuantumRegister(6)
+
+# Initialize a quantum circuit
+circuit = QuantumCircuit(qubits)
+
+# |0⟩ state
+circuit.initialize('0', qubits[0])
+
+# |1⟩ state
+circuit.initialize('1', qubits[1])
+
+# |+⟩ state
+circuit.initialize('+', qubits[2])
+
+# |-⟩ state
+circuit.initialize('-', qubits[3])
+
+# |i⟩ state
+circuit.initialize('r', qubits[4])
+
+# |-i⟩ state
+circuit.initialize('l', qubits[5])
+```
+{% endtab %}
+
+{% tab title="Q#" %}
+```csharp
+namespace Sample {
+    // Import dependencies
+    open Microsoft.Quantum.Canon;
+    open Microsoft.Quantum.Intrinsic;
+    open Microsoft.Quantum.Measurement;
+
+    @EntryPoint()
+    operation InitializeQubits() : Unit {
+        // Allocate 6 qubits
+        use q = Qubit[6];
+
+        // Initialize qubits
+
+        // Qubit 0 is already in state |0⟩ by default
+
+        // Qubit 1: |1⟩
+        X(q[1]);
+
+        // Qubit 2: |+⟩
+        H(q[2]);
+
+        // Qubit 3: |-⟩
+        H(q[3]);
+        Z(q[3]);
+
+        // Qubit 4: |i+⟩ (|R⟩ or |C⟩)
+        H(q[4]);
+        S(q[4]);
+
+        // Qubit 5: |i-⟩ (|L⟩ or |CC⟩)
+        H(q[5]);
+        Adjoint S(q[5]);
+
+        // Release qubits back to |0⟩ state
+        ResetAll(q);
+    }
+}
+```
+{% endtab %}
+{% endtabs %}
