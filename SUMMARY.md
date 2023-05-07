@@ -12,6 +12,7 @@
 * [Qubit Representation](introduction/qubit-representation.md)
 * [Qubit States](introduction/qubit-states.md)
 * [Bloch Sphere](introduction/bloch-sphere.md)
+* [Quantum Circuit](introduction/quantum-circuit.md)
 
 ## Single Qubit Gates
 

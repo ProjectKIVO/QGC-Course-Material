@@ -68,6 +68,10 @@ $$
 
 {% tabs %}
 {% tab title="Qiskit" %}
+{% hint style="info" %}
+You can find information on quantum circuits over at [quantum-circuit.md](quantum-circuit.md "mention").
+{% endhint %}
+
 ```python
 # Import dependency
 from qiskit import QuantumRegister
@@ -100,6 +104,10 @@ circuit.initialize('l', qubits[5])
 {% endtab %}
 
 {% tab title="Q#" %}
+{% hint style="info" %}
+In Q#, there isn't a direct built-in function to initialize the qubits into the six states, and therefore needs to be done manually.
+{% endhint %}
+
 ```csharp
 namespace Sample {
     // Import dependencies
