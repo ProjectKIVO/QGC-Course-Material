@@ -30,3 +30,31 @@ $$
 This vector space can be denoted as $$\left(\mathbb{C}^2\right)^{\otimes 4}$$ which is a complex vector space of dimension $$2^4=16$$. We can also describe the sequence with row vectors as the following:
 
 $$\begin{bmatrix} 0 \\ 0 \\ 0 \\ 0 \\ 0 \\ 1 \\ 0 \\ 0 \\ 0 \\ 0 \\ 0 \\ 0 \\ 0 \\ 0 \\ 0 \\ 0 \end{bmatrix} =$$ $$\begin{array}{c|c}   \textrm{Bit Sequence} & \textrm{Amplitude} \\ \hline   0000 & 0 \\ \hline   0001 & 0 \\ \hline   0010 & 0 \\ \hline   0011 & 0 \\ \hline   0100 & 0 \\ \hline   0101 & 1 \\ \hline   0110 & 0 \\ \hline   0111 & 0 \\ \hline   1000 & 0 \\ \hline   1001 & 0 \\ \hline   1010 & 0 \\ \hline   1011 & 0 \\ \hline   1100 & 0 \\ \hline   1101 & 0 \\ \hline   1110 & 0 \\ \hline   1111 & 0 \end{array}$$
+
+### Example Code
+
+{% tabs %}
+{% tab title="Qiskit" %}
+```python
+# Import dependency
+from qiskit import QuantumRegister
+# Allocate a qubit
+qbits = QuantumRegister(1)
+```
+{% endtab %}
+
+{% tab title="Q#" %}
+```csharp
+namespace Sample {
+    // Import dependency
+    open Microsoft.Quantum.Canon;
+
+    @EntryPoint()
+    operation GenerateRandomBit() : Unit {
+        // Allocate a qubit
+        use q = Qubit();
+    }
+}
+```
+{% endtab %}
+{% endtabs %}
