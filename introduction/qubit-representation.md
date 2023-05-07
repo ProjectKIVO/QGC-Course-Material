@@ -33,7 +33,7 @@ $$\begin{bmatrix} 0 \\ 0 \\ 0 \\ 0 \\ 0 \\ 1 \\ 0 \\ 0 \\ 0 \\ 0 \\ 0 \\ 0 \\ 0 
 
 ### Additional Representation
 
-You can find other qubit repersentations at [qubit-states.md](qubit-states.md "mention")and [bloch-sphere.md](bloch-sphere.md "mention")
+You can find other qubit repersentations at [qubit-states.md](qubit-states.md "mention") and [bloch-sphere.md](bloch-sphere.md "mention")
 
 ### Example Code
 

@@ -2,7 +2,7 @@
 
 ### Common Qubit States
 
-As we have seen the the [qubit-representation.md](qubit-representation.md "mention")section, qubits can exist in multiple states beyond 0s and 1s. The **6** commonly found qubit states are:
+As we have seen the the [qubit-representation.md](qubit-representation.md "mention") section, qubits can exist in multiple states beyond 0s and 1s. The **6** commonly found qubit states are:
 
 * Basis states:&#x20;
   * |0⟩: The computational basis state representing 0.
