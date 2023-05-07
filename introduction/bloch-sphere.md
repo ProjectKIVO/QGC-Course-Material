@@ -65,7 +65,7 @@ for i, sphere in enumerate(bloch_spheres):
 ```
 {% endtab %}
 
-{% tab title="Second Tab" %}
+{% tab title="Q#" %}
 {% hint style="info" %}
 Q# does not have a built-in visualizer for bloch sphere.
 {% endhint %}
